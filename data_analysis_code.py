@@ -9,6 +9,7 @@ movies_90 = netflix_movies[(netflix_movies['release_year'] >= 1990) & (netflix_m
 most_freq_movie_duration_90s = movies_90.groupby('duration')['duration'].count().idxmax()
 print('The most frequent movie duration in the 1990s is ' + str(most_freq_movie_duration_90s) + ' minutes.')
 
+###
 
 # Counting the number of short action movies from the 1990s:
 
