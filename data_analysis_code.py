@@ -1,6 +1,10 @@
 import pandas as pd
 
+# Opening the file:
+
 netflix_df = pd.read_csv("netflix_data.csv")
+
+###
 
 # Finding the most frequent movie duration in the 1990s:
 
