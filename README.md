@@ -40,6 +40,23 @@ The analysis uses the `netflix_data.csv` dataset, which contains the following c
 1. The most frequent movie duration in the 1990s is **94 minutes**.
 2. The number of short action movies (duration <= 90 minutes) from the 1990s is **7**.
 
+## How to Use the Code
+
+### Prerequisites
+1. Ensure you have Python installed (version 3.7 or later).
+2. Install the required library `pandas` if not already installed. You can do this using:
+   ```bash
+   pip install pandas
+   ```
+### Steps
+1. Place the `netflix_data.csv` file in the same directory as the Python script.
+2. Copy and paste the provided Python code into a `.py` file (e.g., `netflix_analysis.py`).
+3. Run the script using the command:
+   ```bash
+   python netflix_analysis.py
+   ```
+4. The output will display the most frequent movie duration in the 1990s and the count of short action movies from that decade.
+
 ## Insights and Next Steps
 
 - The data reveals that movies in the 1990s tended to have a typical duration of around 94 minutes.
@@ -49,4 +66,5 @@ The analysis uses the `netflix_data.csv` dataset, which contains the following c
 - Analyze other genres for trends in durations or popularity during the 1990s.
 - Compare the findings for 1990s movies with those from other decades to observe changes in trends over time.
 - Investigate regional differences in movie characteristics by analyzing the `country` column.
+
 
